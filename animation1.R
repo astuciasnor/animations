@@ -1,3 +1,11 @@
+#xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+#
+#             ANIMAÇÕES GRÁFICAS COM O PACOTE gganimate
+#
+#xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+# 1. Curva com geom_line ------------------------------------------------------
+
 library(refugees)
 population
 
@@ -38,7 +46,8 @@ syria_refugees_plot <- last_plot()
 syria_refugees_plot +
   transition_reveal(year)
 
-# Com mapas
+
+# 2. CAinmações em mapas ------------------------------------------------------
 
 library(sf)
 countries_data <-
